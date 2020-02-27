@@ -1,0 +1,8 @@
+footer {
+    line-height: 60px;
+    background-color: #00FF00;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+}
