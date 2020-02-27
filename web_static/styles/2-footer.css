@@ -1,6 +1,6 @@
 footer {
-    line-height: 60px;
-    background-color: #00FF00;
+    background-color: green;
+    height: 60px;
     width: 100%;
     position: fixed;
     display: flex;
