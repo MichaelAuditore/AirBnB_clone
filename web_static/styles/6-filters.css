@@ -11,13 +11,13 @@
   border-right: solid #DDDDDD 1px;
 }
 
-.locations, .amenities {
+.filters .locations, .filters .amenities {
   height: 100%;
   width: 25%;
   position: relative;
 }
 
-h3 {
+.filters h3 {
   font-weight: 600;
   margin-bottom: 2%;
   margin-left: 10%;

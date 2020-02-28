@@ -70,6 +70,7 @@
     border: #FF5A5F 1px solid;
     border-radius: 4px;
     position: relative;
+    z-index: -1;
 }
 
 .places h2 {
