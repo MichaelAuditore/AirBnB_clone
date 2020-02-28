@@ -1,6 +1,11 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+html, body {
+    height: 100%;
 }
 p {
     margin: auto;
@@ -10,4 +15,10 @@ p {
     color: #484848;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    flex: 1 0 auto;
 }

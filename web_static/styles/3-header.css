@@ -4,6 +4,7 @@ header {
     background-color: white;
     width: 100%;
     display: flex;
+    flex-shrink: 0;
 }
 .image {
     background-image: url('../images/logo.png');

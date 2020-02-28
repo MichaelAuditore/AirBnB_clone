@@ -2,8 +2,8 @@ footer {
     background-color: white;
     height: 60px;
     width: 100%;
-    position: fixed;
     display: flex;
     bottom: 0;
     border-top: solid 1px #CCCCCC;
+    flex-shrink: 0;
 }
