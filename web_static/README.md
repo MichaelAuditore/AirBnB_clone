@@ -15,4 +15,4 @@
 		How to compute CSS Specificity Value
 		What are Box properties in CSS
 
-		![Image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/8-index.png)
+		<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/8-index.png" />
