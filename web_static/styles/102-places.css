@@ -9,6 +9,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .price_by_night {
@@ -22,7 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -19% 0% 0% 75%;
+    top: 2%;
+    right: 5%;
 }
 
 .user {
@@ -72,10 +74,12 @@
     border-radius: 4px;
     position: relative;
     z-index: -1;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .places article>h2 {
-    margin: 0;
+    margin: 0 auto;
     padding-bottom: 10%;
     font-size: 30px;
     text-align: center;
@@ -131,39 +135,52 @@
     background-image: url('../images/icon_pets.png');
 }
 
-@media (min-width: 100px) and (max-width: 720px){
+@media (max-width: 1075px) {
     .filters {
         width: 90%;
         margin: 0 auto;
     }
-    h4 {
-        font-size: 10px;
+
+    .places h1 {
+        width: 100%;
+        text-align: center;
     }
 
-    .filters .amenities, .filters .locations {
+}
+
+@media (max-width: 720px) {
+
+    .filters {
         width: 100%;
     }
 
     .filters button {
-        width: 70%;
-        margin: auto 10px auto auto;
-    }
-
-    .places {
-        margin: 0 auto;
-        width: 25%;
-    }
-
-    .places article {
-        width: 250px;
+        width: 30%;
+        margin-right: 5%;
     }
 
     .places article h2 {
-        text-align: left;
+        margin: 0;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .filters h4 {
+        font-size: 10px;
     }
 
     .price_by_night {
-        margin: -25% 60%;
+        top: 1%;
     }
 
+    .places article {
+        width: 90%;
+        margin: 5% auto;
+    }
 }
